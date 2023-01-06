@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 250px;
+    font-style: none;
+    background-size:cover;
+    background-position:center;
+    background-color: #f3eae3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    width: 600px;
+    height: 450px;
+    border-color: #eee;
+    border-top: 0px;
+    border-left: 10px;
+    border-radius: 10px;
+}
+
+img { 
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text {
+    display: inline;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 30px;
+    color: #7f7f87;
+    font-size: 14px;
+    font-family: 'Fraunces';
+    font-family: 'Montserrat',sans-serif;
+    font-style: bold;
+}
+
+.bold {
+    display: inline;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.explanation {
+    display: inline;
+    position: absolute;
+    padding-top: 210px;
+    padding-left: 30px;
+    color: #7f7f87;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.price {
+    display: inline;
+    position: absolute;
+    padding-top: 305px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.price h2 {
+    color: #3f8068;
+    font-size: 35px;
+}
+
+.price  {
+    column-count: 2;
+    column-gap: 15px;
+}
+
+.price h4 {
+    font-weight: bold;
+    color: #7f7f87;
+    font-size: 15px;
+    padding-top: 12.5px;
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 10px;
+}
+
+.price del {
+    color: #7f7f87;
+}
+
+.button-div {
+    column-count: 0;
+    padding-left: 335px;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    left: 87%;
+    transform: translate(-100%, -180%);
+    width: 230px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 8px;
+    background: #3f8068 ;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: inherit;
+    transition: all 0.3s;
+}
+
+.button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+.button .text {
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    top: 26%;
+}
+
+h3 {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
