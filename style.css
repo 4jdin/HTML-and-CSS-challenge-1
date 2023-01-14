@@ -64,7 +64,7 @@ img {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -275%);
+    transform: translate(-50%, -276%);
     padding-top: 210px;
     padding-left: 330px;
     color: #7f7f87;
@@ -88,13 +88,15 @@ img {
     font-family: 'Fraunces', sans-serif;
 }
 
-.price h3 {
+.price {
     color: #3f8068;
     font-size: 35px;
     font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    padding-left: 370px;
 }
 
-.price h4 {
+.price h3 {
     position: relative;
     top: 50%;
     left: 50%;
@@ -143,14 +145,14 @@ img {
 .button .text {
     display: inline-block;
     padding: 0 30px 0 30px;
-    top: 26%;
+    top: 30%;
 }
 
-h3 {
+.text-button {
     display: inline;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    padding-left: 40px;
+    padding-left: 65px;
     font-family: 'Montserrat', sans-serif;
 }
