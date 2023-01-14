@@ -1,158 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: #d5e1ef;
     font-style: none;
-    background-size: cover;
-    background-position: center;
-    background-color: #f3eae3;
 }
 
-.container{
-    background-color: #fff;
-    width: 600px;
-    height: 450px;
-    border-color: #eee;
-    border-top: 0px;
-    border-left: 10px;
-    border-radius: 10px;
+.container {
+    position: relative;
 }
 
-img { 
-    width: 300px;
-    height: 450px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.text {
-    display: inline;
-    position: absolute;
-    padding-top: 35px;
-    padding-left: 30px;
-    color: #7f7f87;
-    font-size: 8px;
-    font-weight: 500;
-    font-family: 'Montserrat',sans-serif;
-
-}
-
-.bold h2 {
+.box {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -340%);
-    padding-left: 330px;
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Fraunces', serif;
+    transform: translate(-50%, 42%);
+    width: 50%;
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    border-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img {
+    position: relative;
+    border-radius: 10px;
+    width: 290px;
+    height: 290px;
+    transform: translate(5%, 5%);
+}
+
+.main h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1020%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.main-2 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1110%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
 }
 
 .explanation {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -276%);
-    padding-top: 210px;
-    padding-left: 330px;
-    color: #7f7f87;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Montserrat',sans-serif;
-}
-
-.price  {
-    column-count: 2;
-}
-
-.price {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-56.5%, -285%);
-    padding-top: 305px;
-    padding-left: 330px;
-    font-size: 20px;
-    font-family: 'Fraunces', sans-serif;
-}
-
-.price {
-    color: #3f8068;
-    font-size: 35px;
-    font-family: 'Fraunces', sans-serif;
-    font-weight: 700;
-    padding-left: 370px;
-}
-
-.price h3 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(104%, -275%);
-    color: #7f7f87;
-    font-size: 15px;
-    font-family: 'Montserrat',sans-serif;
-    padding-top: 10px;
-    font-weight: 500;
-}
-
-.price del {
-    color: #7f7f87;
-}
-
-.button-div {
-    column-count: 0;
-    padding-left: 335px;
-}
-
-.button {
-    position: relative;
-    top: 50%;
-    left: 87%;
-    transform: translate(-98%, -1900%);
-    width: 240px;
-    height: 45px;
-    border: none;
-    outline: none;
-    font-weight: bold;
-    border-radius: 8px;
-    background: #3f8068 ;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-align: inherit;
-    transition: all 0.3s;
-}
-
-.button .icon {
-    display: inline-block;
     position: absolute;
-    top: 65%;
-    left: 60px;
-    transform: translateY(-50%);
-}
-.button .text {
-    display: inline-block;
-    padding: 0 30px 0 30px;
-    top: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2010%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
 }
 
-.text-button {
-    display: inline;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    padding-left: 65px;
-    font-family: 'Montserrat', sans-serif;
+.explanation-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2110%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+}
+
+.explanation-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2210%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    padding-top: 15rem;
+    font-size: 15px; 
+    padding-left: 21rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
